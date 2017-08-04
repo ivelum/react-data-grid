@@ -1,10 +1,10 @@
 {
   "name": "react-data-grid-examples-ivelum",
-  "version": "2.0.63",
+  "version": "2.0.65",
   "description": "A set of examples for the grid",
   "main": "main.js",
   "scripts": {
-    "prepublish": "node ../../ci/publish/replacePackageEntry react-data-grid-examples true",
+    "prepublishOnly": "node ../../ci/publish/replacePackageEntry react-data-grid-examples true",
     "postpublish": "node ../../ci/publish/replacePackageEntry react-data-grid-examples",
     "test": "npm test"
   },

@@ -1,9 +1,9 @@
 {
   "name": "react-data-grid-ivelum",
-  "version": "2.0.64",
+  "version": "2.0.65",
   "description": "The grid core",
   "scripts": {
-    "prepublish": "node ../../ci/publish/replacePackageEntry react-data-grid true",
+    "prepublishOnly": "node ../../ci/publish/replacePackageEntry react-data-grid true",
     "postpublish": "node ../../ci/publish/replacePackageEntry react-data-grid",
     "test": "npm test"
   },

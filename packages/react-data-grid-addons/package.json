@@ -1,6 +1,6 @@
 {
   "name": "react-data-grid-addons-ivelum",
-  "version": "2.0.64",
+  "version": "2.0.65",
   "description": "A set of addons for react-data-grid",
   "scripts": {
     "prepublish": "node ../../ci/publish/replacePackageEntry react-data-grid-addons true",
