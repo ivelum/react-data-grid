@@ -1,11 +1,11 @@
 const React          = require('react');
+const PropTypes      = require('prop-types');
 const ReactDOM      = require('react-dom');
 const joinClasses    = require('classnames');
 const ExcelColumn    = require('./PropTypeShapes/ExcelColumn');
 const ResizeHandle   = require('./ResizeHandle');
 require('../../../themes/react-data-grid-header.css');
 
-const PropTypes      = React.PropTypes;
 
 function simpleCellRenderer(objArgs: {column: {name: string}}): ReactElement {
   let headerText = objArgs.column.rowType === 'header' ? objArgs.column.name : '';
